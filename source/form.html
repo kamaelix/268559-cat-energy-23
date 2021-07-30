@@ -15,19 +15,17 @@
           <button class="main-nav__toggler toggler" type="button">
             <span class="visually-hidden">Открыть меню</span>
           </button>
-          <div class="container main-nav__container">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a href="index.html">Главная</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="catalog.html">Каталог продукции</a>
-              </li>
-              <li class="main-nav__item main-nav__item--current">
-                <a href="form.html">Подбор программы</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="catalog.html">Каталог продукции</a>
+            </li>
+            <li class="main-nav__item main-nav__item--current">
+              <a href="form.html">Подбор программы</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -39,71 +37,77 @@
           <h2 class="visually-hidden">Форма для заполнения данных о вашем коте</h2>
           <h3 class="nutrition-select__title">Подбор программы</h3>
           <p>Заполните анкету, и мы подберем программу питания для вашего кота</p>
-          <div class="container cat-data__container">
-            <form class="cat-data" method="get" action="https://echo.htmlacademy.ru">
-              <div class="cat-data__basic">
-                <div class="cat-name">
-                  <label for="cat-name-field">Имя:</label>
-                  <input id="cat-name-field" type="text" name="name" placeholder="Барсик">
-                </div>
-                <div class="cat-weight">
-                  <label for="cat-weight-field">Вес (кг):</label>
-                  <input id="cat-weight-field" type="text" name="name" placeholder="7">
-                </div>
-                <div class="cat-age">
-                  <label for="cat-age-field">Возраст (лет):</label>
-                  <input id="cat-age-field" type="text" name="name" placeholder="7">
-                </div>
+          <form class="cat-data" method="get" action="https://echo.htmlacademy.ru">
+            <div class="cat-data__basic">
+              <div class="cat-name">
+                <label for="cat-name-field">Имя:</label>
+                <input id="cat-name-field" type="text" name="name" placeholder="Барсик">
               </div>
-              <div class="cat-data__nutrition-purpose">
-                <ul class="nutrition-purpose__list">
-                  <li class="purpose-item">
-                    <label for="weight-loss">Похудение</label>
-                    <input type="radio" id="weight-loss" name="nutrition-purpose" value="1" checked>
-                  </li>
-                  <li class="purpose-item">
-                    <label for="weight-gain">Набор массы</label>
-                    <input type="radio" id="weight-gain" name="nutrition-purpose" value="2">
-                  </li>
-                  <li class="purpose-item">
-                    <label for="no-idea">Не знаю (нужен ваш совет)</label>
-                    <input type="radio" id="no-idea" name="nutrition-purpose" value="3">
-                  </li>
-                </ul>
+              <div class="cat-weight">
+                <label for="cat-weight-field">Вес (кг):</label>
+                <input id="cat-weight-field" type="text" name="name" placeholder="7">
               </div>
-              <div class="cat-data__contacts">
-                <h4 class="contacts__title">Контактные данные (владельца кота)</h4>
-                <div class="e-mail">
-                  <label for="e-mail">e-mail:*</label>
-                  <input id="e-mail" type="text" name="e-mail" placeholder="kuklachev@gmail.com">
-                </div>
-                <div class="phone">
-                  <label for="phone">Телефон:*</label>
-                  <input id="phone" type="text" name="phone" placeholder="8(960)900-60-90">
-                </div>
+              <div class="cat-age">
+                <label for="cat-age-field">Возраст (лет):</label>
+                <input id="cat-age-field" type="text" name="name" placeholder="7">
               </div>
-              <div class="cat-data__comments">
-                <h4 class="comments__title">Комментарий</h4>
-                <div class="comments">
-                  <textarea rows="6" cols="36">Расскажите обо всех повадках кота</textarea>
-                </div>
+            </div>
+            <div class="cat-data__nutrition-purpose">
+              <ul class="nutrition-purpose__list">
+                <li class="purpose-item">
+                  <label for="weight-loss">Похудение</label>
+                  <input type="radio" id="weight-loss" name="nutrition-purpose" value="1" checked>
+                </li>
+                <li class="purpose-item">
+                  <label for="weight-gain">Набор массы</label>
+                  <input type="radio" id="weight-gain" name="nutrition-purpose" value="2">
+                </li>
+                <li class="purpose-item">
+                  <label for="no-idea">Не знаю (нужен ваш совет)</label>
+                  <input type="radio" id="no-idea" name="nutrition-purpose" value="3">
+                </li>
+              </ul>
+            </div>
+            <div class="cat-data__contacts">
+              <h4 class="contacts__title">Контактные данные (владельца кота)</h4>
+              <div class="e-mail">
+                <label for="e-mail">e-mail:*</label>
+                <input id="e-mail" type="text" name="e-mail" placeholder="kuklachev@gmail.com">
               </div>
-              <div class="cat-data__addons">
-                <h4 class="addons__title">Дополнительно</h4>
-                <div class="addons">
+              <div class="phone">
+                <label for="phone">Телефон:*</label>
+                <input id="phone" type="text" name="phone" placeholder="8(960)900-60-90">
+              </div>
+            </div>
+            <div class="cat-data__comments">
+              <h4 class="comments__title">Комментарий</h4>
+              <div class="comments">
+                <textarea rows="6" cols="36">Расскажите обо всех повадках кота</textarea>
+              </div>
+            </div>
+            <div class="cat-data__addons">
+              <h4 class="addons__title">Дополнительно</h4>
+              <div class="addons">
+                <div class="checkbox__container">
                   <input type="checkbox" name="sweetener" id="sweetener-field" checked>
                   <label for="sweetener-field">Сахарозаменитель</label>
+                </div>
+                <div class="checkbox__container">
                   <input type="checkbox" name="water" id="water-field">
                   <label for="water-field">Питьевая вода</label>
+                </div>
+                <div class="checkbox__container">
                   <input type="checkbox" name="milk" id="milk-field">
                   <label for="milk-field">Молоко</label>
+                </div>
+                <div class="checkbox__container">
                   <input type="checkbox" name="vitamins" id="vitamins-field">
                   <label for="vitamins-field">Витамины</label>
                 </div>
               </div>
-              <input type="submit" value="Отправить заявку">
-            </form>
-          </div>
+            </div>
+            <input type="submit" value="Отправить заявку">
+          </form>
         </div>
       </section>
       <section class="contacts">
