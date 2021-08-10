@@ -1,9 +1,8 @@
 .additional-products__container {
-    outline: 2px dashed blue;
-    margin: 0;
-    padding: 28px 20px 26px 20px;
+  outline: 2px dashed #000aff;
+  margin: 0;
+  padding: 28px 20px 26px 20px;
 }
-
 
 .additional-products__title {
   font-size: 24px;
@@ -11,5 +10,5 @@
 }
 
 .additional-products__item {
-  outline: 2px dashed hotpink;
+  outline: 2px dashed #ff1493;
 }
