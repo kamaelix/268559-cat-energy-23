@@ -1,0 +1,32 @@
+.promo {
+  outline: 2px dashed tomato;
+}
+
+.promo__container {
+  outline: 2px dotted blue;
+  background-color: rgba(104, 183, 56, 0.85);
+  // background: url("../img/index-background-desktop-2.jpg") no-repeat 563px 302px;
+  //background-position: -100px 0;
+
+}
+
+.promo__intro {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 35px 0 35px;
+  padding-top: 25px;
+}
+
+.promo__slogan {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 60px 25px 60px;
+  padding-top: 25px;
+}

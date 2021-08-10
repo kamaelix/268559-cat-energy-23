@@ -1,1 +1,44 @@
 // Начните писать стили здесь
+@import "blocks/page-header.scss";
+@import "blocks/promo.scss";
+@import "blocks/features.scss";
+@import "blocks/product-details.scss";
+@import "blocks/example.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/nutrition-select.scss";
+@import "blocks/products.scss";
+@import "blocks/additional-products.scss";
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldregular.woff2") format("woff2");
+  src: url("../fonts/oswaldregular.woff") format("woff");
+  src: url("../fonts/oswaldmedium.woff2") format("woff2");
+  src: url("../fonts/oswaldmedium.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+a {
+  text-decoration: none;
+}
