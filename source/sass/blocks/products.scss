@@ -1,5 +1,5 @@
 .products__container {
-  outline: 2px dashed #008000;
+  outline: 2px dashed $green;
   margin: 0;
   padding: 0 20px 0 20px;
 }
@@ -7,13 +7,16 @@
 .products__title {
   font-size: 36px;
   line-height: 36px;
+  font-weight: 400;
   margin-bottom: 49px;
 }
 
 .products-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .products-item {
-  outline: 2px dashed #0000ff;
+  outline: 2px dashed $blue;
 }
