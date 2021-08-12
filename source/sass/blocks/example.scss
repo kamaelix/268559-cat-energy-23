@@ -1,0 +1,22 @@
+.example__container {
+  outline: 2px dashed $green;
+  background-color: $grey;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.example__title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 27px;
+}
+
+.example__container p {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
