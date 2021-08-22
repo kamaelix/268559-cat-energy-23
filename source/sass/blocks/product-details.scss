@@ -12,9 +12,25 @@
 }
 
 .product-details__list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding-bottom: 42px;
   margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    //flex-wrap: nowrap;
+  }
+}
+
+.product-details__item {
+  display: flex;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: column;
+    width: 280px;
+  }
 }
 
 .product-details__item p {
