@@ -1,4 +1,16 @@
 .page-footer__container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-items: center;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: auto;
+    justify-content: space-between;
+  }
+
   outline: 2px dashed $blue;
   background: #d9d9d9;
   margin: 0;
@@ -9,4 +21,49 @@
   font-family: $second-font;
   font-size: 16px;
   line-height: auto;
+}
+
+.page-footer__logo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}
+
+.page-footer__social {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+}
+
+.page-footer__copyright {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__list {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

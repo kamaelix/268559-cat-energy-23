@@ -49,3 +49,9 @@
 .main-nav__list a {
   color: $dark;
 }
+
+.main-nav__toggler {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
