@@ -7,7 +7,7 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body class="page__body">
-    <header class="page-header">
+    <header class="container page-header">
       <div class="container page-header__container">
         <a class="page-header__logo" href="index.html">
           <img
@@ -17,10 +17,20 @@
             alt="Интернет-магазин Кэт энерджи"
           />
         </a>
+        <a class="page-header__text-logo" href="index.html">
+          <img
+            src="img/page-header-logo.svg"
+            width="101"
+            height="18"
+            alt="Интернет-магазин Кэт энерджи"
+          />
+        </a>
+        <button class="main-nav__toggler toggler" type="button">
+          <span class="visually-hidden">Открыть меню</span>X
+        </button>
+      </div>
+      <div class="container main-nav__container">
         <nav class="main-nav">
-          <button class="main-nav__toggler toggler" type="button">
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
           <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--current">
               <a href="index.html">Главная</a>
@@ -86,24 +96,48 @@
             <h3 class="product-details__title">Как это работает</h3>
             <ul class="product-details__list">
               <li class="product-details__item product-details__item--healthy">
+                <img
+                  src="img/logo-mobile.svg"
+                  width="33"
+                  height="38"
+                  alt="Интернет-магазин Кэт энерджи"
+                />
                 <p>
                   Функциональное питание содержит только полезные питательные
                   вещества.
                 </p>
               </li>
               <li class="product-details__item product-details__item--easy">
+                <img
+                  src="img/logo-mobile.svg"
+                  width="33"
+                  height="38"
+                  alt="Интернет-магазин Кэт энерджи"
+                />
                 <p>
                   Выпускается в виде порошка, который нужно лишь залить кипятком
                   и готово.
                 </p>
               </li>
               <li class="product-details__item product-details__item--saving">
+                <img
+                  src="img/logo-mobile.svg"
+                  width="33"
+                  height="38"
+                  alt="Интернет-магазин Кэт энерджи"
+                />
                 <p>
                   Замените один-два приема обычной еды на наше функциональное
                   питание.
                 </p>
               </li>
               <li class="product-details__item product-details__item--swiftly">
+                <img
+                  src="img/logo-mobile.svg"
+                  width="33"
+                  height="38"
+                  alt="Интернет-магазин Кэт энерджи"
+                />
                 <p>
                   Уже через месяц наслаждайтесь изменениями к лучшему вашего
                   питомца!
@@ -167,8 +201,14 @@
     <footer class="page-footer">
       <div class="container page-footer__container">
         <div class="page-footer__logo">
-          <p>CAT ENERGY</p>
-          <!--здесь будет SVG иконка-->
+          <a class="page-footer__text-logo" href="index.html">
+            <img
+              src="img/page-footer-logo.svg"
+              width="128"
+              height="24"
+              alt="Интернет-магазин Кэт энерджи"
+            />
+          </a>
         </div>
         <div class="page-footer__social social">
           <ul class="social__list">
@@ -178,6 +218,12 @@
                 href="https://vk.com/htmlacademy"
               >
                 <span class="visually-hidden">Вконтакте</span>
+                <img
+                  src="img/icon_vkontakte.svg"
+                  width="23"
+                  height="16"
+                  alt="Вконтакте"
+                />
               </a>
             </li>
             <li class="social__item">
@@ -186,6 +232,12 @@
                 href="https://www.instagram.com/htmlacademy"
               >
                 <span class="visually-hidden">Инстаграм</span>
+                <img
+                  src="img/icon_instagram.svg"
+                  width="16"
+                  height="16"
+                  alt="Инстаграм"
+                />
               </a>
             </li>
             <li class="social__item">
@@ -194,6 +246,12 @@
                 href="https://www.facebook.com/htmlacademy"
               >
                 <span class="visually-hidden">Фейсбук</span>
+                <img
+                  src="img/icon_facebook.svg"
+                  width="22"
+                  height="22"
+                  alt="Фейсбук"
+                />
               </a>
             </li>
           </ul>
@@ -202,8 +260,16 @@
           <a
             class="copyright__link copyright__link--academy"
             href="https://htmlacademy.ru/intensive/adaptive"
-            >HTML Academy</a
-          >
+            >HTML Academy
+          </a>
+          <a>
+            <img
+              src="img/logo_html.svg"
+              width="27"
+              height="34"
+              alt="Логотип HTML Academy"
+            />
+          </a>
         </div>
       </div>
     </footer>
