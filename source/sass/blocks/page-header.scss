@@ -14,16 +14,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  outline: 2px dashed $red;
-  margin: 0 20px 0 20px;
+  //outline: 2px dashed $red;
+  //margin: 0 20px 0 20px;
 }
 
 .page-header__logo {
-  outline: 2px dotted $pink;
+  //outline: 2px dotted $pink;
 }
 
 .main-nav {
-  outline: 2px dashed $green;
+  //outline: 2px dashed $green;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -43,7 +43,7 @@
 
 .main-nav__list li {
   height: 66px;
-  outline: 2px dashed $blue;
+  //outline: 2px dashed $blue;
 }
 
 .main-nav__list a {
