@@ -9,6 +9,22 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    padding: 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    padding: 0 20px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
