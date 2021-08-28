@@ -47,3 +47,43 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+//.cat-name input,
+//.cat-weight input,
+//.cat-age input {
+//  width: 100%;
+//}
+
+.cat-data-wrapper {
+  outline: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat-data__basic {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contacts-wrapper {
+  outline: 2px solid $red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.extras__list {
+  outline: 2px solid $red;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
+}

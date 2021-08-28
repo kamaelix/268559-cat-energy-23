@@ -1,0 +1,17 @@
+.special-offer__container {
+  display: inline-block;
+  width: 280px;
+  height: 290px;
+  background-color: #68b738;
+  color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    width: 707px;
+    height: 200px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    height: 289px;
+  }
+}
