@@ -48,12 +48,6 @@
   text-transform: uppercase;
 }
 
-//.cat-name input,
-//.cat-weight input,
-//.cat-age input {
-//  width: 100%;
-//}
-
 .cat-data-wrapper {
   outline: 2px solid $red;
   display: flex;
@@ -62,8 +56,20 @@
 
 .cat-data__basic {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+}
+
+.cat-name,
+.cat-weight,
+.cat-age {
+  display: flex;
+  width: 100%;
+}
+
+.cat-name input,
+.cat-weight input,
+.cat-age input {
+  width: 100%;
 }
 
 .contacts-wrapper {
@@ -78,12 +84,31 @@
   }
 }
 
+.e-mail input,
+.phone input {
+  width: 100%;
+}
+
+.e-mail,
+.phone {
+  display: flex;
+}
+
 .extras__list {
   outline: 2px solid $red;
-  display: flex;
-  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.extras__item-wrapper {
+  @media (min-width: $tablet-width) {
+    width: 50%;
   }
 }
