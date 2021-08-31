@@ -1,7 +1,7 @@
 .products__container {
-  //outline: 2px dashed $green;
+  outline: 3px dashed $green;
   margin: 0;
-  padding: 0 20px 0 20px;
+  padding: 0;
 }
 
 .products__title {
@@ -12,11 +12,29 @@
 }
 
 .products-list {
+  display: grid;
+  grid-template-columns: 280px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 324px 342px;
+    gap: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 245px 245px 245px 245px;
+    column-gap: 80px;
+    row-gap: 63px;
+  }
+
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .products-item {
-  //outline: 2px dashed $blue;
+  outline: 3px solid $red;
+
+  @media (min-width: $tablet-width) {
+    background-color: #f2f2f2;
+  }
 }
