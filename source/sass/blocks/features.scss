@@ -10,6 +10,7 @@
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
+  padding: 30px 80px 30px 90px;
 }
 
 .features__list {
@@ -29,7 +30,7 @@
 }
 
 .features__item {
-  background-color: $grey;
+  background-color: $basic_grey;
 }
 
 .features__item p {
@@ -37,6 +38,10 @@
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 23px;
+  border-bottom: 2px solid $grey;
 }
 
 .features__item a {
@@ -44,6 +49,7 @@
   line-height: 24px;
   font-weight: 400;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .features__item--slim {
